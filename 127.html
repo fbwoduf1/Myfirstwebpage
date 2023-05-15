@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WEB</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        poketmons = ["이상해씨", "피카츄", "나오하", "뜨아거","꾸왁스","리자몽","삐삐","픽시","디그다"];
+        var i = 0;
+        var num = 0;
+        while(i<poketmons.length){
+        document.write('<li><a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=' + poketmons[i] +'">' + poketmons[i] + '</a></li>');
+        document.write('<img src="포켓몬/' + num + '.png"' + 'alt="not found width="100" height="100""');
+        i += 1;
+        num += 1;
+        }
+    </script>
+    <img src="포켓몬/1.png"
+</body>
+
+</html>
